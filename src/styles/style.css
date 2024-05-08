@@ -1,3 +1,7 @@
+main {
+    height: 100vh;
+}
+
 .taskWrapper, .task {
     background-color: #ccc;
     border-radius: 10px;
@@ -7,11 +11,16 @@
 }
 
 .taskHeading, .task__heading {
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: 15px;
+    color: #b61b1b;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    word-wrap: break-word;
 }
 
 .taskDescription, .task_description {
     font-size: 16px;
-
+    color: #752b73;
+    word-wrap: break-word;
 }
