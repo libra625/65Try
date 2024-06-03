@@ -9,8 +9,7 @@ const Model = {
     set todos (todoItemArray) {
         localStorage.setItem(this.key, JSON.stringify(todoItemArray))
     },
-
-    saveTdoItem (data) {
+    saveTodoItem (data) {
         const savedData = structuredClone(this.todos)
         const dataToSave = structuredClone(data)
         dataToSave.id = savedData.length ? savedData.at(-1).id + 1 : 1
